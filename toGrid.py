@@ -16,18 +16,18 @@
 #
 # Bind hotkeys to call the script on your Linux OS. Example for an ultrawide monitor:
 # Full height columns:
-#   meta+shift+a      --> path-to-script/toGrid.py 7 1-2
-#   meta+shift+s      --> path-to-script/toGrid.py 7 3-5
-#   meta+shift+d      --> path-to-script/toGrid.py 7 6-7
+#   super+shift+a      --> path-to-script/toGrid.py 7 1-2
+#   super+shift+s      --> path-to-script/toGrid.py 7 3-5
+#   super+shift+d      --> path-to-script/toGrid.py 7 6-7
 # Address the top row:
-#   meta+ctrl+shift+a --> path-to-script/toGrid.py 7 1-2 T
-#   meta+ctrl+shift+s --> path-to-script/toGrid.py 7 3-5 T
-#   meta+ctrl+shift+d --> path-to-script/toGrid.py 7 6-7 T
+#   super+ctrl+shift+a --> path-to-script/toGrid.py 7 1-2 T
+#   super+ctrl+shift+s --> path-to-script/toGrid.py 7 3-5 T
+#   super+ctrl+shift+d --> path-to-script/toGrid.py 7 6-7 T
 # Address the bottom row:
-#   meta+alt+shift+a  --> path-to-script/toGrid.py 7 1-2 B
-#   meta+alt+shift+s  --> path-to-script/toGrid.py 7 3-5 B
-#   meta+alt+shift+d  --> path-to-script/toGrid.py 7 6-7 B
-# Similarly, the meta+[yxcv] keys can be used to address a 4-column grid, etc.
+#   super+alt+shift+a  --> path-to-script/toGrid.py 7 1-2 B
+#   super+alt+shift+s  --> path-to-script/toGrid.py 7 3-5 B
+#   super+alt+shift+d  --> path-to-script/toGrid.py 7 6-7 B
+# Similarly, the super+[yxcv] keys can be used to address a 4-column grid, etc.
 
 
 
