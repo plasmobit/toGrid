@@ -1,9 +1,10 @@
 # About
 
-A simple script to place the current window into a virtual display grid as described by the provided parameters. 
+A simple script to place the current window into a virtual display grid on X11 as described by the provided parameters. 
 
 Designed to be used on ultrawide monitors with custom system hotkeys!
 
+*Note*: does not work for Wayland!  
 *Note*: Windows with active size hints may have some offsets due to their size restrictions.
 
 # How to use
