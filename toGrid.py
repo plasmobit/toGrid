@@ -90,7 +90,7 @@ usage = """USAGE: toGrid.py number_of_columns first_col-last_col [T,B]
 
 if __name__ == "__main__":
   gr = os.getenv('XDG_SESSION_TYPE')
-  if gr != "x11":
+  if gr.lower() != "x11":
     print(f"This tool currently works only within X11 graphic environment! (have: {gr})")
     exit(1)
   
