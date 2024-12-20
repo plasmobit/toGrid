@@ -33,6 +33,8 @@
 
 from sys import argv, exit
 from sh import xdotool
+import os
+
 
 deb = 0 # print debug infos
 
@@ -87,6 +89,11 @@ usage = """USAGE: toGrid.py number_of_columns first_col-last_col [T,B]
     e.g.: "7 3-5 T" -- for a wide-center, occupying cols 3 to 5 in a 7-col grid on the (T)op half of the display."""
 
 if __name__ == "__main__":
+  gr = os.getenv('XDG_SESSION_TYPE')
+  if gr != "x11":
+    print(f"This tool currently works only within X11 graphic environment! (have: {gr})")
+    exit(1)
+  
   if not (3 <= len(argv) <= 4):
     print(usage)
     exit(0)
